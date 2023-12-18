@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  width: 100%;
+  bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContainer {
+  width: 50%;
+  height: 5rem;
+  background-color: #292e38a1;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.HeaderContent {
+  width: 7rem;
+  height: 80%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.631);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.HeaderContent:hover {
+  background-color: #333946a1;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.69);
+  color: white;
+}
